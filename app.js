@@ -18,7 +18,7 @@
     
     if (chute == numeroSecreto){
     exibirTextoNaTela('h1', 'Acertou!');
-    let parlavraTentativa = tentativa > 1 ? 'tentivas' : 'tentativa'
+    let parlavraTentativa = tentativa > 1 ? 'tentativas' : 'tentativa'
     let mensagemTentativa = `Você descobriu o número secreto com ${tentativa} ${parlavraTentativa}`;
     exibirTextoNaTela('p',mensagemTentativa);
     document.getElementById('reiniciar').removeAttribute('disabled');
